@@ -34,3 +34,6 @@ library(ggplot2)
 ggplot(data = data, aes(x = DESEMPENHO_SAEB, y = DESEMPENHO_SARESP)) +
   geom_point(color = 'red') +
   stat_smooth(method = 'lm')
+
+
+summary(data)
